@@ -1,0 +1,216 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"eb621ef5-7771-4b0d-870a-3b533b29d9a5\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.idea/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.idea/deploymentTargetDropDown.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.idea/gradle.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.idea/migrations.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/build.gradle.kts\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/proguard-rules.pro\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/androidTest/java/com/example/demo1/ExampleInstrumentedTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/MainActivity.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/abc.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh1.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh2.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh3.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh4.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh5.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_add_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_all_inbox_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_attach_money_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_close_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_emoji_emotions_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_feed_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_group_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_groups_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_key_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_logout_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_save_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_search_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_store_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_vertical_align_top_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_warning_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_waterfall_chart_24.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/boder.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/box.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/bx_x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/chagepass.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/coso.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/date.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/delete.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/exit.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/giay.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/ic_launcher_background.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/ic_launcher_foreground.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/ic_person.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/icon1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/icon2.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/iconbill.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/img.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/just.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/keyy.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/khachhang.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/khung.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/loaigiay.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/logo.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/logoo.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/menu_hover.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/nike.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/person.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/phukien.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/save.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/shoes.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/thongke.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/titile.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/topnv.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/drawable/upadte.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_login.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_main.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-anydpi/ic_launcher.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-hdpi/ic_launcher.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-mdpi/ic_launcher.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/raw/loading.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/values-night/themes.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/values/colors.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/values/strings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/values/themes.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/xml/backup_rules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/main/res/xml/data_extraction_rules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/app/src/test/java/com/example/demo1/ExampleUnitTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/build.gradle.kts\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/gradle.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/gradle/wrapper/gradle-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/gradle/wrapper/gradle-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/gradlew\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/gradlew.bat\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/demo1/settings.gradle.kts\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gitattributes\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ClangdSettings\">\r\n    <option name=\"formatViaClangd\" value=\"false\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[]\" />\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$/demo1\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand />\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2b2rPlSuKU9ExkFvBQox6v2o6UG\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,\r\n    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,\r\n    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/AndroidStudioProjects/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/settings.gradle.kts&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Android App.demo1.app\">\r\n    <configuration name=\"Unnamed\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\" nameIsGenerated=\"true\">\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"SHOW_DIALOG\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"demo1.app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\">\r\n      <module name=\"demo1.app.main\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Hybrid>\r\n      <Java>\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Java>\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\r\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"Duan_AppBanGiay_Agile_MD18202_Nhom3\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"Duan_AppBanGiay_Agile_MD18202_Nhom3\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"eb621ef5-7771-4b0d-870a-3b533b29d9a5\" name=\"Changes\" comment=\"\" />\r\n      <created>1705423993758</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1705423993758</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b6f459cf50f22c3c04e0452e77b43545cc37c320)
++++ b/.idea/workspace.xml	(date 1705424781629)
+@@ -9,109 +9,8 @@
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.idea/compiler.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.idea/gradle.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.idea/migrations.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/build.gradle.kts" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/proguard-rules.pro" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/androidTest/java/com/example/demo1/ExampleInstrumentedTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/MainActivity.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/abc.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh1.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh2.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh3.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh4.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/anh5.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_add_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_all_inbox_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_attach_money_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_close_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_emoji_emotions_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_feed_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_group_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_groups_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_key_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_logout_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_save_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_search_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_store_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_vertical_align_top_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_warning_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/baseline_waterfall_chart_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/boder.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/box.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/bx_x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/chagepass.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/coso.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/date.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/delete.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/exit.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/giay.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/ic_person.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/icon1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/icon2.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/iconbill.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/img.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/just.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/keyy.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/khachhang.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/khung.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/loaigiay.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/logo.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/logoo.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/menu_hover.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/nike.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/person.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/phukien.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/save.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/shoes.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/thongke.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/titile.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/topnv.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/drawable/upadte.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/raw/loading.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/values-night/themes.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/values/colors.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/values/strings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/values/themes.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/app/src/test/java/com/example/demo1/ExampleUnitTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/build.gradle.kts" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/gradle.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/gradlew" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/gradlew.bat" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/demo1/settings.gradle.kts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
++    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="manhinh welcome">
++      <changelist_data name="nguyenhungthe2k3" email="117711639+nguyenhungthe2k3@users.noreply.github.com" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -140,6 +39,11 @@
+     </system>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="nguyenhungthe2k3 &lt;117711639+nguyenhungthe2k3@users.noreply.github.com&gt;" />
++      </list>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+@@ -154,24 +58,23 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/AndroidStudioProjects/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/settings.gradle.kts&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.cidr.known.project.marker": "true",
++    "cf.first.check.clang-format": "false",
++    "cidr.known.project.marker": "true",
++    "com.google.services.firebase.aqiPopupShown": "true",
++    "last_opened_file_path": "C:/Users/Admin/AndroidStudioProjects/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/settings.gradle.kts",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "run.code.analysis.last.selected.profile": "pProject Default"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager" selected="Android App.demo1.app">
+     <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
+       <option name="DEPLOY" value="true" />
+@@ -327,9 +230,39 @@
+       <option name="presentableId" value="Default" />
+       <updated>1705423993758</updated>
+     </task>
++    <task id="LOCAL-00001" summary="manhinh welcome">
++      <option name="closed" value="true" />
++      <created>1705424621994</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1705424621994</updated>
++    </task>
++    <task id="LOCAL-00002" summary="manhinh welcome">
++      <option name="closed" value="true" />
++      <created>1705424671875</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1705424671875</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="manhinh welcome" />
++    <option name="LAST_COMMIT_MESSAGE" value="manhinh welcome" />
+   </component>
+ </project>
+\ No newline at end of file
