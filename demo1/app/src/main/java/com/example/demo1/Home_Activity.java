@@ -18,6 +18,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.example.demo1.Dao.NhanVienDao;
+import com.example.demo1.Fragments.HoaDonFragment;
+import com.example.demo1.Fragments.LoaiGiayFragment;
+import com.example.demo1.Model.NhanVien;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
@@ -75,9 +78,11 @@ public class Home_Activity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.QuanLyHoaDon) {
-
+                    HoaDonFragment hoaDonFragment = new HoaDonFragment();
+                    replaceFrg(hoaDonFragment);
                 } else if (item.getItemId() == R.id.QuanLyLoaiGiay) {
-
+                    LoaiGiayFragment loaiGiayFragment = new LoaiGiayFragment();
+                    replaceFrg(loaiGiayFragment);
                 } else if (item.getItemId() == R.id.QuanLyGiay) {
 
                 } else if (item.getItemId() == R.id.QuanLyKhachHang) {
