@@ -4,19 +4,20 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_home.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Dao/NhanVienDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Database/DbHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/NhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" afterDir="false" />
+    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="manhinhdangnhap">
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R5CT41AH60K]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/demo1">
       <ProjectState />
@@ -77,6 +78,15 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\res\layout" />
+      <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo1" />
+    </key>
+  </component>
   <component name="RunManager" selected="Android App.demo1.app">
     <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
       <option name="DEPLOY" value="true" />
@@ -232,6 +242,15 @@
       <option name="presentableId" value="Default" />
       <updated>1705423993758</updated>
     </task>
+    <task id="LOCAL-00001" summary="manhinhdangnhap">
+      <option name="closed" value="true" />
+      <created>1705468969888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705468969888</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,5 +266,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="manhinhdangnhap" />
+    <option name="LAST_COMMIT_MESSAGE" value="manhinhdangnhap" />
   </component>
 </project>
