@@ -42,10 +42,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="manhinhdangnhap">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_01_2024_12_06_SA__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_01_2024_12_06_SA__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/LoaiGiayAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/LoaiGiaySpinerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Dao/LoaiGiayDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/LoaiGiayFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\PC\.android\avd\Medium_Phone_API_31.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/demo1">
       <ProjectState />
@@ -99,7 +101,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "F:/demo4(quanlyhoadon)/demo4(quanlyhoadon)/demo1",
+    "last_opened_file_path": "D:/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/app/src/main/java/com/example/demo1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -108,6 +110,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
+      <recent name="D:\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1\Adapter" />
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\res\layout" />
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\res" />
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
