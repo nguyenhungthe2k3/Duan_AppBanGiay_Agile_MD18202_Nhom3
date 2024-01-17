@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bar"
+    android:orientation="vertical"
+    tools:context=".Fragments.DoanhThuFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/thongke" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/date"
+            android:drawablePadding="8dp"
+            android:focusable="false"
+            android:hint="Start Date"
+            android:inputType="none"
+            android:paddingLeft="20dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/date"
+            android:drawablePadding="8dp"
+            android:focusable="false"
+            android:hint="End Date"
+            android:inputType="none"
+            android:paddingLeft="20dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/spinerCoSo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDoanhThuAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/khung"
+            android:text="Tổng doanh thu" />
+        <Button
+            android:id="@+id/btnDoanhThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/khung"
+            android:text="Doanh thu cơ sở"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvDoanhThu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Doanh Thu:"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+</LinearLayout>
