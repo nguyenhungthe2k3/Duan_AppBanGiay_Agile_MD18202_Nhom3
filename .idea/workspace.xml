@@ -10,6 +10,31 @@
           <theme>@style/Theme.Demo1</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/header.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/menu/bottom_menu.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/menu/menu.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -17,7 +42,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="manhinhdangnhap">
-      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/color/custom_color_botom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/menu/bottom_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +113,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\res\layout" />
+      <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\res" />
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -250,7 +283,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705468969888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="manhinhdangnhap">
+      <option name="closed" value="true" />
+      <created>1705469382075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705469382075</updated>
+    </task>
+    <task id="LOCAL-00003" summary="manhinhdangnhap">
+      <option name="closed" value="true" />
+      <created>1705469421285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705469421285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
