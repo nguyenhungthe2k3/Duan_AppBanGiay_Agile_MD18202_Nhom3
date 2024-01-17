@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.demo1.Database.DbHelper;
-import com.example.demo1.NhanVien;
+import com.example.demo1.Model.NhanVien;
 
 import java.util.ArrayList;
 import java.util.List;
