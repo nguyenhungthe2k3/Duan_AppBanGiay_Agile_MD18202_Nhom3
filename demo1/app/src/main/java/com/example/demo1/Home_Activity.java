@@ -20,7 +20,9 @@ import androidx.fragment.app.FragmentManager;
 import com.example.demo1.Dao.NhanVienDao;
 import com.example.demo1.Fragments.GiayFragment;
 import com.example.demo1.Fragments.HoaDonFragment;
+import com.example.demo1.Fragments.KhachHangFragment;
 import com.example.demo1.Fragments.LoaiGiayFragment;
+import com.example.demo1.Fragments.NhanVienFragment;
 import com.example.demo1.Model.NhanVien;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -89,10 +91,14 @@ public class Home_Activity extends AppCompatActivity {
                     replaceFrg(giayFragment);
 
                 } else if (item.getItemId() == R.id.QuanLyKhachHang) {
+                    KhachHangFragment khachHangFragment = new KhachHangFragment();
+                    replaceFrg(khachHangFragment);
 
                 } else if (item.getItemId() == R.id.DoiMk) {
 
                 } else if (item.getItemId() == R.id.QuanLyNhanVien) {
+                    NhanVienFragment nhanVienFragment = new NhanVienFragment();
+                    replaceFrg(nhanVienFragment);
 
 
                 } else {
