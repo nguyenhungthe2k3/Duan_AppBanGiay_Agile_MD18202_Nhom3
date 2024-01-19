@@ -41,12 +41,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="manhinhdangnhap">
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/LoaiGiayAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/LoaiGiaySpinerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Dao/LoaiGiayDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/LoaiGiayFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/AndroidManifest.xml" afterDir="false" />
+    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="quanlygiay">
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/KhachHangAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/KhachHangFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +54,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\PC\.android\avd\Medium_Phone_API_31.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\PC\.android\avd\Medium_Phone_API_31_1.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/demo1">
       <ProjectState />
@@ -76,6 +73,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ngtronhuy &lt;156788615+ngtronhuy@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -90,24 +92,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "D:/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/app/src/main/java/com/example/demo1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/app/src/main/java/com/example/demo1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
@@ -299,7 +301,55 @@
       <option name="project" value="LOCAL" />
       <updated>1705469421285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="quanlygiay">
+      <option name="closed" value="true" />
+      <created>1705655391419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705655391419</updated>
+    </task>
+    <task id="LOCAL-00005" summary="quanlygiay">
+      <option name="closed" value="true" />
+      <created>1705655439784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705655439785</updated>
+    </task>
+    <task id="LOCAL-00006" summary="quanlygiay">
+      <option name="closed" value="true" />
+      <created>1705655537218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705655537219</updated>
+    </task>
+    <task id="LOCAL-00007" summary="quanlygiay">
+      <option name="closed" value="true" />
+      <created>1705655619809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705655619810</updated>
+    </task>
+    <task id="LOCAL-00008" summary="quanlygiay">
+      <option name="closed" value="true" />
+      <created>1705656053371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705656053371</updated>
+    </task>
+    <task id="LOCAL-00009" summary="quanlygiay">
+      <option name="closed" value="true" />
+      <created>1705656079107</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705656079107</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +366,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="manhinhdangnhap" />
-    <option name="LAST_COMMIT_MESSAGE" value="manhinhdangnhap" />
+    <MESSAGE value="quanlygiay" />
+    <option name="LAST_COMMIT_MESSAGE" value="quanlygiay" />
   </component>
 </project>
