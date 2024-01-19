@@ -18,6 +18,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.example.demo1.Dao.NhanVienDao;
+import com.example.demo1.Fragments.GiayFragment;
 import com.example.demo1.Fragments.HoaDonFragment;
 import com.example.demo1.Fragments.LoaiGiayFragment;
 import com.example.demo1.Model.NhanVien;
@@ -84,6 +85,8 @@ public class Home_Activity extends AppCompatActivity {
                     LoaiGiayFragment loaiGiayFragment = new LoaiGiayFragment();
                     replaceFrg(loaiGiayFragment);
                 } else if (item.getItemId() == R.id.QuanLyGiay) {
+                    GiayFragment giayFragment = new GiayFragment();
+                    replaceFrg(giayFragment);
 
                 } else if (item.getItemId() == R.id.QuanLyKhachHang) {
 
