@@ -41,9 +41,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="quanlygiay">
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/KhachHangAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/KhachHangFragment.java" afterDir="false" />
+    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="top">
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/ChangePassFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\PC\.android\avd\Medium_Phone_API_31_1.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/demo1">
       <ProjectState />
@@ -92,24 +91,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Duan_AppBanGiay_Agile_MD18202_Nhom3/demo1/app/src/main/java/com/example/demo1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "last_opened_file_path": "C:/Users/Admin/AndroidStudioProjects/demo8(quanlynhanvien)/demo1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
@@ -119,6 +118,9 @@
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo1.Fragments" />
+      <recent name="com.example.demo1.Dao" />
+      <recent name="com.example.demo1.Adapter" />
       <recent name="com.example.demo1" />
     </key>
   </component>
@@ -349,7 +351,63 @@
       <option name="project" value="LOCAL" />
       <updated>1705656079107</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="quanlynhanvien">
+      <option name="closed" value="true" />
+      <created>1705824804104</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705824804104</updated>
+    </task>
+    <task id="LOCAL-00011" summary="quanlynhanvien">
+      <option name="closed" value="true" />
+      <created>1705824830927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705824830927</updated>
+    </task>
+    <task id="LOCAL-00012" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825255449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825255449</updated>
+    </task>
+    <task id="LOCAL-00013" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825276439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825276439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825297714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825297714</updated>
+    </task>
+    <task id="LOCAL-00015" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825521413</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825521413</updated>
+    </task>
+    <task id="LOCAL-00016" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825543747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825543747</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,6 +425,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="manhinhdangnhap" />
     <MESSAGE value="quanlygiay" />
-    <option name="LAST_COMMIT_MESSAGE" value="quanlygiay" />
+    <MESSAGE value="quanlynhanvien" />
+    <MESSAGE value="top" />
+    <option name="LAST_COMMIT_MESSAGE" value="top" />
   </component>
 </project>
