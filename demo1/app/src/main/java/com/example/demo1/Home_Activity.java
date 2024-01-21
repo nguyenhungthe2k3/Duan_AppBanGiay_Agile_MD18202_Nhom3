@@ -18,6 +18,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.example.demo1.Dao.NhanVienDao;
+import com.example.demo1.Fragments.ChangePassFragment;
 import com.example.demo1.Fragments.GiayFragment;
 import com.example.demo1.Fragments.HoaDonFragment;
 import com.example.demo1.Fragments.KhachHangFragment;
@@ -96,7 +97,8 @@ public class Home_Activity extends AppCompatActivity {
                     replaceFrg(khachHangFragment);
 
                 } else if (item.getItemId() == R.id.DoiMk) {
-
+                    ChangePassFragment changePassFragment = new ChangePassFragment();
+                    replaceFrg(changePassFragment);
                 } else if (item.getItemId() == R.id.QuanLyNhanVien) {
                     NhanVienFragment nhanVienFragment = new NhanVienFragment();
                     replaceFrg(nhanVienFragment);

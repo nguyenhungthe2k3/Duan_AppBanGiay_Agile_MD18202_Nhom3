@@ -41,14 +41,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="quanlynhanvien">
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/ImageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/TopAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Dao/ThongKeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/TopFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/build.gradle.kts" afterDir="false" />
+    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="top">
+      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/ChangePassFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,9 +118,9 @@
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo1.Fragments" />
       <recent name="com.example.demo1.Dao" />
       <recent name="com.example.demo1.Adapter" />
-      <recent name="com.example.demo1.Fragments" />
       <recent name="com.example.demo1" />
     </key>
   </component>
@@ -372,7 +367,47 @@
       <option name="project" value="LOCAL" />
       <updated>1705824830927</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825255449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825255449</updated>
+    </task>
+    <task id="LOCAL-00013" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825276439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825276439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825297714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825297714</updated>
+    </task>
+    <task id="LOCAL-00015" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825521413</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825521413</updated>
+    </task>
+    <task id="LOCAL-00016" summary="top">
+      <option name="closed" value="true" />
+      <created>1705825543747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825543747</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,6 +426,7 @@
     <MESSAGE value="manhinhdangnhap" />
     <MESSAGE value="quanlygiay" />
     <MESSAGE value="quanlynhanvien" />
-    <option name="LAST_COMMIT_MESSAGE" value="quanlynhanvien" />
+    <MESSAGE value="top" />
+    <option name="LAST_COMMIT_MESSAGE" value="top" />
   </component>
 </project>
