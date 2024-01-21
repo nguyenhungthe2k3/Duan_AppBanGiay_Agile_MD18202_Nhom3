@@ -22,6 +22,8 @@ import com.example.demo1.Fragments.GiayFragment;
 import com.example.demo1.Fragments.HoaDonFragment;
 import com.example.demo1.Fragments.KhachHangFragment;
 import com.example.demo1.Fragments.LoaiGiayFragment;
+import com.example.demo1.Fragments.NhanVienFragment;
+import com.example.demo1.Fragments.TopFragment;
 import com.example.demo1.Model.NhanVien;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -96,6 +98,8 @@ public class Home_Activity extends AppCompatActivity {
                 } else if (item.getItemId() == R.id.DoiMk) {
 
                 } else if (item.getItemId() == R.id.QuanLyNhanVien) {
+                    NhanVienFragment nhanVienFragment = new NhanVienFragment();
+                    replaceFrg(nhanVienFragment);
 
 
                 } else {
@@ -130,7 +134,8 @@ public class Home_Activity extends AppCompatActivity {
                 if (item.getItemId() == R.id.coSo) {
 
                 } else if (item.getItemId() == R.id.topgiayMuaNhieuNhat) {
-
+                    TopFragment fragment = new TopFragment();
+                    replaceFrg(fragment);
                 } else if (item.getItemId() == R.id.topNv) {
 
                 } else {
