@@ -25,6 +25,7 @@ import com.example.demo1.Fragments.KhachHangFragment;
 import com.example.demo1.Fragments.LoaiGiayFragment;
 import com.example.demo1.Fragments.NhanVienFragment;
 import com.example.demo1.Fragments.TopFragment;
+import com.example.demo1.Fragments.TopNvFragment;
 import com.example.demo1.Model.NhanVien;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -139,7 +140,8 @@ public class Home_Activity extends AppCompatActivity {
                     TopFragment fragment = new TopFragment();
                     replaceFrg(fragment);
                 } else if (item.getItemId() == R.id.topNv) {
-
+                    TopNvFragment fragment1 = new TopNvFragment();
+                    replaceFrg(fragment1);
                 } else {
 
                 }
