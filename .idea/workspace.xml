@@ -41,8 +41,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="top">
-      <change afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/ChangePassFragment.java" afterDir="false" />
+    <list default="true" id="eb621ef5-7771-4b0d-870a-3b533b29d9a5" name="Changes" comment="topnv">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/CoSoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/CoSoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/CoSoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/CoSoFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +104,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "C:/Users/Admin/AndroidStudioProjects/demo8(quanlynhanvien)/demo1",
+    "last_opened_file_path": "C:/Users/Admin/AndroidStudioProjects/demo10(topnv)/demo1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -118,9 +120,9 @@
       <recent name="C:\Users\Admin\AndroidStudioProjects\Duan_AppBanGiay_Agile_MD18202_Nhom3\demo1\app\src\main\java\com\example\demo1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo1.Adapter" />
       <recent name="com.example.demo1.Fragments" />
       <recent name="com.example.demo1.Dao" />
-      <recent name="com.example.demo1.Adapter" />
       <recent name="com.example.demo1" />
     </key>
   </component>
@@ -407,7 +409,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705825543747</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="topnv">
+      <option name="closed" value="true" />
+      <created>1706331068261</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706331068261</updated>
+    </task>
+    <task id="LOCAL-00018" summary="topnv">
+      <option name="closed" value="true" />
+      <created>1706331097874</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706331097874</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,6 +445,7 @@
     <MESSAGE value="quanlygiay" />
     <MESSAGE value="quanlynhanvien" />
     <MESSAGE value="top" />
-    <option name="LAST_COMMIT_MESSAGE" value="top" />
+    <MESSAGE value="topnv" />
+    <option name="LAST_COMMIT_MESSAGE" value="topnv" />
   </component>
 </project>
