@@ -56,21 +56,21 @@ public class LoaiGiayAdapter extends RecyclerView.Adapter<LoaiGiayAdapter.viewho
                 builder.setTitle("Cảnh báo");//set tiêu đề
                 builder.setIcon(R.drawable.baseline_warning_24);//set icon
                 builder.setMessage("Bạn có chắc chắn muốn xóa không?");
-                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         if (loaiGiayDao.deleteLoaiGiay(lg.getMaLoai())) {
                             listlg.clear();
                             listlg.addAll(loaiGiayDao.GetAll());
                             notifyDataSetChanged();
-                            Toast.makeText(context, "Delete Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Xóa thành công !", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(context, "Huỷ xoá", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Huỷ xoá !", Toast.LENGTH_SHORT).show();
                     }
                 });
                 AlertDialog dialog = builder.create();
@@ -128,11 +128,11 @@ public class LoaiGiayAdapter extends RecyclerView.Adapter<LoaiGiayAdapter.viewho
                 String ten = tenLoai.getText().toString();
                 String loai = loaiHang.getText().toString();
                 if (ten.equals("")) {
-                    Toast.makeText(context, "Nhập tên loại", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Nhập tên loại !", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (loai.equals("")) {
-                    Toast.makeText(context, "Nhập tên loại hàng", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Nhập tên loại hàng !", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 lg.setTenLoai(tenLoai.getText().toString());
@@ -142,16 +142,16 @@ public class LoaiGiayAdapter extends RecyclerView.Adapter<LoaiGiayAdapter.viewho
                     listlg.addAll(loaiGiayDao.GetAll());
                     notifyDataSetChanged();
                     dialog.dismiss();
-                    Toast.makeText(context, "Update Succ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Cập nhập thành công !", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(context, "Update Fail", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Cập nhập thất bại !", Toast.LENGTH_SHORT).show();
                 }
             }
         });
         btnHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "Huỷ Update", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Huỷ cập nhập !", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });

@@ -102,12 +102,12 @@ public class CoSoFragment extends Fragment {
                 String tenCs = edtTenCs.getText().toString();
                 String dchi = edtDiaChi.getText().toString();
                 if (tenCs.equals("")) {
-                    Toast.makeText(getActivity(), "Vui lòng nhập tên cơ sở", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Vui lòng nhập tên cơ sở !", Toast.LENGTH_SHORT).show();
                     edtTenCs.requestFocus();
                     return;
                 }
                 if (dchi.equals("")) {
-                    Toast.makeText(getActivity(), "Vui lòng nhập địa chỉ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Vui lòng nhập địa chỉ !", Toast.LENGTH_SHORT).show();
                     edtDiaChi.requestFocus();
                     return;
                 }
@@ -116,17 +116,17 @@ public class CoSoFragment extends Fragment {
                     listcs.clear();
                     listcs.addAll(coSoDao.GetAll());
                     adapter.notifyDataSetChanged();
-                    Toast.makeText(getActivity(), "Add Succ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Thêm thành công !", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 } else {
-                    Toast.makeText(getActivity(), "Add Fail", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Thêm thất bại !", Toast.LENGTH_SHORT).show();
                 }
             }
         });
         btnHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Huỷ Add", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Huỷ thêm !", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });

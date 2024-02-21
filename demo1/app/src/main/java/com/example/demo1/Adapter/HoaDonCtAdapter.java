@@ -81,26 +81,26 @@ public class HoaDonCtAdapter extends ArrayAdapter<HoaDonCt> {
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                 builder.setTitle("Delete");
-                builder.setMessage("Bạn có chắc chắn muốn xóa không");
+                builder.setMessage("Bạn có chắc chắn muốn xóa không ?");
                 builder.setCancelable(true);
-                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         if (hoaDonCtDao.deleteHoaDonCt(item.getMaCthd())) {
                             list.clear();
                             list.addAll(hoaDonCtDao.getAll(item.getSoHoaDon()));
                             notifyDataSetChanged();
-                            Toast.makeText(context, "Delete Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Xóa thành công !", Toast.LENGTH_SHORT).show();
                             if (onDeleteSuccessListener != null) {
                                 onDeleteSuccessListener.onDeleteSuccess();
                             }
                         }
                     }
                 });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(context, "Bạn đã thoát xoá", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Bạn đã thoát xoá !", Toast.LENGTH_SHORT).show();
                     }
                 });
                 AlertDialog dialog = builder.create();

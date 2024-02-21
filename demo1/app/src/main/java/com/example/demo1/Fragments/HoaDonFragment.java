@@ -225,19 +225,19 @@ public class HoaDonFragment extends Fragment {
                 if (type == 0) {
                     //type==0 insert
                     if (hoaDonDao.insertHoaDon(item)) {
-                        Toast.makeText(context, "Add Succ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Thêm thành công !", Toast.LENGTH_SHORT).show();
                         capNhapLv();
                     } else {
-                        Toast.makeText(context, "Add Fail", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Thêm thất bại !", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     //type ==1 Update
                     item.setMaHoaDon(Integer.parseInt(edMaHd.getText().toString()));
                     if (hoaDonDao.updateHoaDon(item)) {
-                        Toast.makeText(context, "Update Succ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Cập nhập thành công !", Toast.LENGTH_SHORT).show();
                         capNhapLv();
                     } else {
-                        Toast.makeText(context, "Update Fail", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Cập nhập thất bại !", Toast.LENGTH_SHORT).show();
                     }
                 }
                 capNhapLv();
@@ -258,7 +258,7 @@ public class HoaDonFragment extends Fragment {
                 hoaDonDao.deleteHoaDon(Integer.parseInt(id));
                 capNhapLv();
                 dialog.cancel();
-                Toast.makeText(getContext(), "Xóa thành công", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Xóa thành công !", Toast.LENGTH_SHORT).show();
             }
         });
         builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {

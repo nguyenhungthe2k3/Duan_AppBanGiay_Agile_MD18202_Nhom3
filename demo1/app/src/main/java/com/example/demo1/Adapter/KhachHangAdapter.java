@@ -55,21 +55,21 @@ public class KhachHangAdapter extends RecyclerView.Adapter<KhachHangAdapter.view
                 builder.setTitle("Cảnh báo");//set tiêu đề
                 builder.setIcon(R.drawable.baseline_warning_24);//set icon
                 builder.setMessage("Bạn có chắc chắn muốn xóa không?");
-                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         if (khachHangDAO.deleteKh(kh.getMaKh())) {
                             listKh.clear();
                             listKh.addAll(khachHangDAO.getAll());
                             notifyDataSetChanged();
-                            Toast.makeText(context, "Delete Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Xóa thành công !", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(context, "Bạn đã thoát xoá", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Bạn đã thoát xoá !", Toast.LENGTH_SHORT).show();
                     }
                 });
                 AlertDialog dialog = builder.create();
@@ -100,13 +100,13 @@ public class KhachHangAdapter extends RecyclerView.Adapter<KhachHangAdapter.view
                         String ten = edtTenkh.getText().toString();
                         String sdt = edtSdt.getText().toString();
                         if (ten.isEmpty() || sdt.isEmpty()) {
-                            Toast.makeText(context, "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Vui lòng nhập đầy đủ thông tin !", Toast.LENGTH_SHORT).show();
                             return;
                         }
                         try {
                            int phoneNumber = Integer.parseInt(sdt);
                            if(sdt.length()!=10){
-                            Toast.makeText(context, "Số điện thoại phải là 10 số", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Số điện thoại phải là 10 số !", Toast.LENGTH_SHORT).show();
                             return;
                             }
                             kh.setTenKh(edtTenkh.getText().toString());
@@ -116,12 +116,12 @@ public class KhachHangAdapter extends RecyclerView.Adapter<KhachHangAdapter.view
                                 listKh.addAll(khachHangDAO.getAll());
                                 notifyDataSetChanged();
                                 dialog.dismiss();
-                                Toast.makeText(context, "Update Succ", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Cập nhập thành công !", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(context, "Update Fail", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Cập nhập thất bại !", Toast.LENGTH_SHORT).show();
                             }
                         }catch (Exception e){
-                            Toast.makeText(context, "Số điện thoại không đúng định dạng", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Số điện thoại không đúng định dạng !", Toast.LENGTH_SHORT).show();
                             return;
                         }
 
@@ -130,7 +130,7 @@ public class KhachHangAdapter extends RecyclerView.Adapter<KhachHangAdapter.view
                 btnHuy.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(context, "Huỷ Update", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Huỷ cập nhập !", Toast.LENGTH_SHORT).show();
                         dialog.dismiss();
                     }
                 });

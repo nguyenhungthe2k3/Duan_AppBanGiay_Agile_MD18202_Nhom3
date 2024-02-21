@@ -47,7 +47,7 @@ public class Login_Activity extends AppCompatActivity {
                     return;
                 }
                 if (nhanVienDao.CheckLogin(userName, passWord) > 0 || (userName.equals("admin") && passWord.equals("admin"))) {
-                    Toast.makeText(Login_Activity.this, "Đăng nhập Succ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login_Activity.this, "Đăng nhập thành công !", Toast.LENGTH_SHORT).show();
                     rememberUser(userName, passWord, chkLuuMk.isChecked());
                     Intent intent = new Intent(Login_Activity.this, Home_Activity.class);
                     intent.putExtra("user", userName);

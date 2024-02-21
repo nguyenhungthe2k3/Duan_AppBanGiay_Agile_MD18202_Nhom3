@@ -115,10 +115,10 @@ public class LoaiGiayFragment extends Fragment {
                     listlg.clear();
                     listlg.addAll(loaiGiayDao.GetAll());
                     adapter.notifyDataSetChanged();
-                    Toast.makeText(getActivity(), "Add Succ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Thêm thành công !", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 } else {
-                    Toast.makeText(getActivity(), "Add Fail", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Thêm thất bại !", Toast.LENGTH_SHORT).show();
                 }
             }
         });
