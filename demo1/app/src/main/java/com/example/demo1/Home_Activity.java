@@ -20,6 +20,7 @@ import androidx.fragment.app.FragmentManager;
 import com.example.demo1.Dao.NhanVienDao;
 import com.example.demo1.Fragments.ChangePassFragment;
 import com.example.demo1.Fragments.CoSoFragment;
+import com.example.demo1.Fragments.DoanhThuFragment;
 import com.example.demo1.Fragments.GiayFragment;
 import com.example.demo1.Fragments.HoaDonFragment;
 import com.example.demo1.Fragments.KhachHangFragment;
@@ -145,7 +146,8 @@ public class Home_Activity extends AppCompatActivity {
                     TopNvFragment fragment1 = new TopNvFragment();
                     replaceFrg(fragment1);
                 } else {
-
+                    DoanhThuFragment doanhThuFragment = new DoanhThuFragment();
+                    replaceFrg(doanhThuFragment);
                 }
                 getSupportActionBar().setTitle(item.getTitle());
                 return true;
