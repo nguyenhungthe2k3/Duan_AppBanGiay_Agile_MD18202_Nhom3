@@ -59,7 +59,7 @@ public class NhanVienAdapter extends ArrayAdapter<NhanVien> {
             if (coSo != null) {
                 tvCoSo.setText(coSo.getMaCoSo());
             } else {
-                tvCoSo.setText("Không xác định");
+                tvCoSo.setText("Không xác định !");
             }
         }
         btnDelete.setOnClickListener(new View.OnClickListener() {

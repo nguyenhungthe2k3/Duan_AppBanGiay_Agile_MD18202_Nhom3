@@ -96,7 +96,7 @@ public class NhanVienFragment extends Fragment {
         lvNhanVien.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getContext(), "Không thể sửa thông tin nhân viên", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Không thể sửa thông tin nhân viên !", Toast.LENGTH_SHORT).show();
                 return false;
             }
         });
@@ -186,10 +186,10 @@ public class NhanVienFragment extends Fragment {
                     listNv.clear();
                     listNv.addAll(nhanVienDao.getAll());
                     adapter.notifyDataSetChanged();
-                    Toast.makeText(getActivity(), "Add Succ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Thêm thành công !", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 } else {
-                    Toast.makeText(getActivity(), "Add fail", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Thêm thất bại !", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -213,7 +213,7 @@ public class NhanVienFragment extends Fragment {
                 nhanVienDao.deleteNv(Id);
                 capNhatLv();
                 dialog.dismiss();
-                Toast.makeText(getContext(), "Xóa thành công", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Xóa thành công !", Toast.LENGTH_SHORT).show();
             }
         });
         builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {

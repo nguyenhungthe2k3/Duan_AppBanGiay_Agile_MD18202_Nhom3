@@ -56,12 +56,12 @@ public class ChangePassFragment extends Fragment {
                     NhanVien nv = nhanVienDao.getID(user);
                     nv.setMatKhau(edPassChange.getText().toString());
                     if (nhanVienDao.updatePass(nv) > 0) {
-                        Toast.makeText(getActivity(), "ChangePass Succ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Thay đổi mật khẩu thành công !", Toast.LENGTH_SHORT).show();
                         edPassOld.setText("");
                         edPassChange.setText("");
                         edRePassChange.setText("");
                     } else {
-                        Toast.makeText(getActivity(), "ChangePass Fail", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Thay đổi mật khẩu thất bại !", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -80,11 +80,11 @@ public class ChangePassFragment extends Fragment {
             String pass = edPassChange.getText().toString();
             String rePass = edRePassChange.getText().toString();
             if (!passOld.equals(edPassOld.getText().toString())) {
-                Toast.makeText(getContext(), "Mật khẩu cũ sai", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Mật khẩu cũ sai !", Toast.LENGTH_SHORT).show();
                 check = -1;
             }
             if (!pass.equals(rePass)) {
-                Toast.makeText(getContext(), "Mật khẩu không trùng khớp", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Mật khẩu không trùng khớp !", Toast.LENGTH_SHORT).show();
                 check = -1;
             }
         }

@@ -120,9 +120,9 @@ public class KhachHangFragment extends Fragment {
                         list.addAll(khachHangDao.getAll());
                         adapter.notifyDataSetChanged();
                         dialog.dismiss();
-                        Toast.makeText(getActivity(), "Add Thành công", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Thêm Thành công !", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(getActivity(), "Add Fail", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Thêm thất bại !", Toast.LENGTH_SHORT).show();
                     }
                 } catch (Exception e) {
                     Toast.makeText(getActivity(), "Số điện thoại không hợp lệ", Toast.LENGTH_SHORT).show();
@@ -136,7 +136,7 @@ public class KhachHangFragment extends Fragment {
         btnHuy_itemAddKhachHang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Thoát Add", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Thoát thêm !", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });

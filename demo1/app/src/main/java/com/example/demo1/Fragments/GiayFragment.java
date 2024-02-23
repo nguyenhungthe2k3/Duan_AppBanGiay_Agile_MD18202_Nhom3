@@ -136,7 +136,7 @@ public class GiayFragment extends Fragment {
         spinner.setAdapter(spinerAdapter);
         //check nếu listLoaiGiay Null
         if (listlg.isEmpty()) {
-            Toast.makeText(context, "Vui lòng thêm loại giày trước", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Vui lòng thêm loại giày trước !", Toast.LENGTH_SHORT).show();
             dialog.dismiss();
             return;
         }
@@ -189,7 +189,7 @@ public class GiayFragment extends Fragment {
                     String giaMua = edtGia.getText().toString();
                     String moTa = edtGhiChu.getText().toString();
                     if (tenGiay.isEmpty() || giaMua.isEmpty() || moTa.isEmpty()) {
-                        Toast.makeText(getActivity(), "Nhập đủ thông tin", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Nhập đủ thông tin !", Toast.LENGTH_SHORT).show();
                         return;
                     }
                     try {
@@ -207,22 +207,22 @@ public class GiayFragment extends Fragment {
                     if (type == 0) {
 //insert
                         if (giayDao.insertGiay(item)) {
-                            Toast.makeText(context, "Add Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Thêm thành công !", Toast.LENGTH_SHORT).show();
                         } else {
-                            Toast.makeText(context, "Add Fail", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Thêm thất bại !", Toast.LENGTH_SHORT).show();
                         }
                     } else {
                         item.setMaGiay(Integer.parseInt(edtMaGiay.getText().toString()));
                         if (giayDao.updateGiay(item)) {
-                            Toast.makeText(context, "Update Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Cập nhập thành công !", Toast.LENGTH_SHORT).show();
                         } else {
-                            Toast.makeText(context, "Update Fail", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Cập nhập thất bại !", Toast.LENGTH_SHORT).show();
                         }
                     }
                     capNhapLv();
                     dialog.dismiss();
                 } catch (Exception e) {
-                    Toast.makeText(context, "Nhập đẩy đủ thông tin", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Nhập đẩy đủ thông tin !", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -265,7 +265,7 @@ public class GiayFragment extends Fragment {
                 giayDao.deleteGiay(Id);
                 capNhapLv();
                 dialog.cancel();
-                Toast.makeText(getContext(), "Delete Succ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Xóa thành công !", Toast.LENGTH_SHORT).show();
             }
         });
         builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {

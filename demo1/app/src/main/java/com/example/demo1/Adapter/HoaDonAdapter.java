@@ -69,7 +69,7 @@ public class HoaDonAdapter extends ArrayAdapter {
                 String tenkh = kh.getTenKh();
                 tvMaKh.setText(tenkh);
             } else {
-                tvMaKh.setText("Không xác định");
+                tvMaKh.setText("Không xác định !");
             }
             try {
                 tvNgay.setText(sfd.format(item.getNgayMua()));
@@ -94,7 +94,7 @@ public class HoaDonAdapter extends ArrayAdapter {
                         isAdmin = true;
                         fragment.xoa(String.valueOf(item.getMaHoaDon()));
                     } else {
-                        Toast.makeText(context, "Bạn không có quyền xoá hoá đơn", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Bạn không có quyền xoá hoá đơn !", Toast.LENGTH_SHORT).show();
                     }
 
                 }

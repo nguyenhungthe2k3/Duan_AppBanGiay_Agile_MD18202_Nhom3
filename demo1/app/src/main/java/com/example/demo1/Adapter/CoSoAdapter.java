@@ -53,21 +53,21 @@ public class CoSoAdapter extends RecyclerView.Adapter<CoSoAdapter.viewholer> {
                 builder.setTitle("Cảnh báo");//set tiêu đề
                 builder.setIcon(R.drawable.baseline_warning_24);//set icon
                 builder.setMessage("Bạn có chắc chắn muốn xóa không?");
-                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         if (coSoDao.deleteCoSo(cs.getMaCoSo())) {
                             listcs.clear();
                             listcs.addAll(coSoDao.GetAll());
                             notifyDataSetChanged();
-                            Toast.makeText(context, "Delete Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "Xóa thành công !", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(context, "Huỷ xoá", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Huỷ xoá !", Toast.LENGTH_SHORT).show();
                     }
                 });
                 AlertDialog dialog = builder.create();
@@ -123,12 +123,12 @@ public class CoSoAdapter extends RecyclerView.Adapter<CoSoAdapter.viewholer> {
                 String tenCs = maCs.getText().toString();
                 String dchi = diaChi.getText().toString();
                 if (tenCs.equals("")) {
-                    Toast.makeText(context, "Vui lòng nhập tên cơ sở", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Vui lòng nhập tên cơ sở ?", Toast.LENGTH_SHORT).show();
                     maCs.requestFocus();
                     return;
                 }
                 if (dchi.equals("")) {
-                    Toast.makeText(context, "Vui lòng nhập địa chỉ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Vui lòng nhập địa chỉ ?", Toast.LENGTH_SHORT).show();
                     diaChi.requestFocus();
                     return;
                 }
@@ -139,16 +139,16 @@ public class CoSoAdapter extends RecyclerView.Adapter<CoSoAdapter.viewholer> {
                     listcs.addAll(coSoDao.GetAll());
                     notifyDataSetChanged();
                     dialog.dismiss();
-                    Toast.makeText(context, "Update Succ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Cập nhập thành công !", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(context, "Update Fail", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Cập nhập thất bại !", Toast.LENGTH_SHORT).show();
                 }
             }
         });
         btnHuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "Huỷ Update", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Huỷ cập nhập !", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });

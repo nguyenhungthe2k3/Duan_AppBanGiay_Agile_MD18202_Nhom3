@@ -112,15 +112,15 @@ public class Home_Activity extends AppCompatActivity {
                     builder.setTitle("Cảnh báo");
                     builder.setIcon(R.drawable.baseline_warning_24);
                     builder.setMessage("Bạn có muốn đăng xuất k?");
-                    builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(Home_Activity.this, "Đăng xuất Succ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Home_Activity.this, "Đăng xuất thành công !", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(Home_Activity.this, Login_Activity.class);
                             startActivity(intent);
                         }
                     });
-                    builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
 

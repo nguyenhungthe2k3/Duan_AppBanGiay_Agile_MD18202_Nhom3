@@ -5,6 +5,11 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_hoa_don_ct.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/activity_home.xml">
         <config>
           <theme>@style/Theme.Demo1</theme>
@@ -20,7 +25,62 @@
           <theme>@style/Theme.Demo1</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/fragment_change_pass.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/fragment_co_so.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/fragment_doanh_thu.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/fragment_giay.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/fragment_hoa_don.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/fragment_loai_giay.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/header.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/item_add_coso.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/item_chitiethoadon.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/item_coso.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/item_loaigiay.xml">
+        <config>
+          <theme>@style/Theme.Demo1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/demo1/app/src/main/res/layout/item_update_loaigiay.xml">
         <config>
           <theme>@style/Theme.Demo1</theme>
         </config>
@@ -45,6 +105,24 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_01_2024_12_06_SA__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_01_2024_12_06_SA__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/CoSoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/CoSoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/HoaDonAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/HoaDonAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/HoaDonCtAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/HoaDonCtAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/KhachHangAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/KhachHangAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/LoaiGiayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/LoaiGiayAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/NhanVienAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Adapter/NhanVienAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Database/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Database/DbHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/ChangePassFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/ChangePassFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/CoSoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/CoSoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/GiayFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/GiayFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/HoaDonFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/HoaDonFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/KhachHangFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/KhachHangFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/LoaiGiayFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/LoaiGiayFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/NhanVienFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Fragments/NhanVienFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/HoaDonCtActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/HoaDonCtActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Home_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/java/com/example/demo1/Login_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/app/src/main/res/layout/header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/app/src/main/res/layout/header.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +132,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R5CT41AH60K]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/demo1">
       <ProjectState />
